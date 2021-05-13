@@ -1,0 +1,57 @@
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: row wrap;
+  animation: fadeInAnimation ease .8s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap
+}
+
+.card {
+  padding: 1em;
+  margin: 1.5em;
+  background-color: rgb(250, 248, 248);
+  box-shadow: 12px 12px 12px #e9e5e5;
+}
+
+.card-text {
+  font-size: 12px;
+  margin-bottom: 2em;
+}
+
+img {
+  border-bottom: 1px solid lightgrey;
+  margin-bottom: 1em;
+}
+
+.btn {
+  font-size: 10px;
+  background-color: darkorchid;
+  opacity: .6;
+  color: white;
+}
+
+.card-body {
+  height: 14em;
+}
+
+.card-title {
+  margin-bottom: 1em;
+}

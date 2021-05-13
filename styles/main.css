@@ -1,0 +1,85 @@
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  display: flex;
+  justify-content: center;
+  animation: fadeInAnimation ease .8s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  background-color: #fafafa;
+  background-image: url(/images/About.png);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position-x: right;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+
+.jumbotron {
+  display: flex;
+  justify-content: center;
+  margin-top: 10em;
+  margin-right: 10em;
+}
+
+.navbar-expand {
+  text-align: end;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 26.7em;
+  width: 12em;
+  margin-left: 1em;
+  padding-top: .5em;
+  padding-right: 1em;
+  border-right: 5px solid darkorchid;
+  opacity: .6;
+  line-height: .8;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: grey;
+}
+
+.nav-link:hover {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+b {
+  color: darkorchid
+}
+
+#title {
+  margin-top: 1em;
+  font-size: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#sub-title {
+  font-size: 5em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#about-me-paragraph {
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6em;
+  margin-top: 1em;
+}
+
+.contact {
+  font-size: 12px;
+}
