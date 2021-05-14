@@ -30,7 +30,7 @@ body {
   margin-right: 10em;
 }
 
-.navbar-expand {
+.navbar {
   text-align: end;
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
@@ -92,23 +92,12 @@ b {
 
 @media (max-width: 767.98px) { 
 
-    .jumbotron {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 3em;
-    padding: 1em;
-  }
-  
-  .navbar-expand {
-    text-align: end;
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: .5em;
-    padding-right: 1em;
-    border-right: 5px solid darkorchid;
-    opacity: .6;
-    line-height: .8;
+  .jumbotron {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 3em;
+  padding: 1em;
   }
   
   .nav-link {
@@ -152,19 +141,3 @@ b {
   }
 
  }
-
-
- /* <div class="nav nav-bar col-lg-2 col-md-6 col-sm-2 ">
-        <nav class="navbar-expand flex-column">
-          <a class="nav-link" href="./pages/projects.html">Projects</a>
-          <a class="nav-link" href="https://poshmark.com/closet/danilionclosets">Business</a>
-          <a class="nav-link" href="https://www.linkedin.com/in/dani-crosby/">LinkedIn</a>
-          <a class="nav-link" href="https://github.com/danicrosby">Github</a>
-          <a class="nav-link" href="https://danicrosby.medium.com/">Medium</a>
-          <a class="nav-link" href="./resume.pdf">Resume</a>
-          <hr>
-          <a class="nav-link" href="">Contact</a>
-          <a class="nav-link contact" href="">dani.crosby1111@gmail.com</a>
-          <a class="nav-link contact" href="">925.588.4948</a>
-        </nav>
-      </div> */
