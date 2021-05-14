@@ -57,6 +57,11 @@ b {
   color: darkorchid
 }
 
+hr {
+  color: darkorchid;
+  font-size: 1em;
+}
+
 #title {
   margin-top: 1em;
   font-size: 2em;
@@ -89,24 +94,6 @@ b {
   flex-direction: column;
   margin: 3em;
   padding: 1em;
-  }
-  
-  .nav-link {
-    text-decoration: none;
-    color: grey;
-  }
-  
-  .nav-link:hover {
-    text-decoration: none;
-    color: lightgrey;
-  }
-  
-  .contact {
-    font-size: 12px;
-  }
-  
-  b {
-    color: darkorchid
   }
 
   .profile-imgage {
