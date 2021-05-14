@@ -83,16 +83,22 @@ hr {
 
 @media (max-width: 767.98px) { 
 
+  body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    animation: fadeInAnimation ease .8s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    background-color: #fafafa;
+    background: none;
+  }
+
   .jumbotron {
   display: flex;
   justify-content: center;
   flex-direction: column;
   margin: 3em;
-  padding: 1em;
-  }
-
-  .profile-imgage {
-    height: 15em;
   }
   
   #title {
